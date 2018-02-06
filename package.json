@@ -4,6 +4,8 @@
   "description": "An online portfolio",
   "scripts": {
     "start": "node dev-server.js",
+    "build": "webpack -p --progress --config ./webpack.production.config.js",
+    "postinstall": "npm run build",
     "test": "mocha"
   },
   "repository": {
