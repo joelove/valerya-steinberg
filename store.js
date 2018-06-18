@@ -5,6 +5,8 @@ import { routerMiddleware } from 'react-router-redux';
 import rootReducer from 'reducers/root-reducer';
 import sagas from 'sagas';
 
+// Here is an example code change
+
 export default function createStoreWithHistory(history) {
   const sagaMiddleware = createSagaMiddleware();
 
